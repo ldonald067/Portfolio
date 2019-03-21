@@ -2,12 +2,7 @@
   box-sizing: border-box;
 }
 
-/* body {
-	margin: 0;
-	background: #000;
-	font-family: 'Work Sans', sans-serif;
-	font-weight: 400;
-}
+
 
 /* navigation styles start here */
 
@@ -21,10 +16,6 @@ header {
   transition: 1s;
 }
 
-/* #nav-toggle-1.scrolled {
-  background-color: #fff !important;
-  transition: 1s;
-} */
 
 /* changed this from the tutorial video to
    allow it to gain focus, making it tabbable */

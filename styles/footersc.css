@@ -4,7 +4,6 @@ footer {
  display: flex;
  align-items: center;
  justify-content: center;
- margin-right: 50px;
 
 
 
@@ -13,16 +12,14 @@ footer {
 .footerlist, .lilist {
 display: inline-flex;
 list-style: none;
+padding:0;
 }
 
-/* Footer */
 
- footer {
-   margin-bottom: 50px;
- }
+
 
  .fa-2x {
-    font-size: 2.5em;
+    font-size: 2.3em;
 }
 
 
@@ -31,7 +28,7 @@ list-style: none;
 } */
 
 .fa-linkedin, .fa-github, .fa-envelope-square {
- margin-left: 10px;
+ /* margin-left: 5px; */
  color: black;
 }
 

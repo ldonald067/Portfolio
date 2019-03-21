@@ -99,9 +99,9 @@ footer {
   margin-bottom: 25px;
 }
 
-.fa-2x {
+/* .fa-2x {
    font-size: 2.5em;
-}
+} */
 
 @media screen and (max-width: 600px) {
     .column   {
