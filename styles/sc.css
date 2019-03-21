@@ -368,6 +368,8 @@ blockquote{
 /* media queries */
 .collage{display:none;min-width:1200px;}
 .collage960{display:none;min-width:960px;}
+.hero-image960{display:none;min-width:960px;}
+.hero-image1200{display:none;min-width:1200px;}
 .mobile-only-mockups{display:block;}
 .mobile-only-mockups img{
   margin-bottom:0;
@@ -524,6 +526,10 @@ footer ul li + li{margin-left:1rem;}
   }
   .collage{display:none;}
   .collage960{display:block;}
+  .hero-image960{
+    display:none;}
+  .hero-image1200{
+    display:block;}
   .mobile-only-mockups{display:none;}
 }
 
@@ -533,4 +539,8 @@ footer ul li + li{margin-left:1rem;}
   }
   .collage{display:block;}
   .collage960{display:none;}
+  .hero-image960{
+    display:block;}
+  .hero-image1200{
+    display:none;}
 }
