@@ -1,0 +1,30 @@
+
+
+footer {
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ margin-right: 50px;
+
+
+
+}
+
+.footerlist, .lilist {
+display: inline-flex;
+list-style: none;
+}
+
+
+/* .fa-linkedin {
+  margin-left: 10px;
+} */
+
+.fa-linkedin, .fa-github, .fa-envelope-square {
+ margin-left: 10px;
+ color: black;
+}
+
+/* .fa-envelope-square {
+  margin-left: 10px;
+} */

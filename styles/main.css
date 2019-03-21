@@ -1,0 +1,275 @@
+*, *::before, *::after {
+     -moz-box-sizing: border-box;
+     -webkit-box-sizing: border-box;
+     box-sizing: border-box;
+ }
+
+/*body*/
+
+ body {
+
+   font-family: "Open Sans";
+   font-size: 1.125em;
+   line-height: 28px;
+   font-weight: 100;
+
+
+ }
+
+ /*hero*/
+
+
+#h {
+  background: #2193b0; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #56ceea, #6dd5ed); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #56ceea, #6dd5ed); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  width: 100%;
+
+}
+
+.hero {
+height: 100vh;
+/* padding: 100px 0 0 0; */
+display: flex;
+align-items: center;
+justify-content: center;
+
+}
+
+.herointro {
+ color: #000000;
+ font-weight: 700;
+ font-family: 'Montserrat';
+ text-align: center;
+ line-height: 60px;
+ font-size: 3rem;
+
+}
+
+.slogan {
+ color: #000000;
+ font-size: 2.5rem;
+ /* font-family: "Open Sans"; */
+ line-height: 50px;
+ text-align: center;
+ font-weight: 100;
+}
+
+
+.container {
+  width: 90%;
+  margin: auto;
+
+}
+
+
+
+/* project list */
+#projects {
+  clear: both;
+  width: 100%;
+  margin: auto;
+  padding: 5rem 0;
+}
+
+h2  {
+  text-align: center;
+  font-family: 'Montserrat';
+  text-transform: uppercase;
+  margin-top: 5%
+}
+
+p {
+  margin-top: 0;
+}
+
+.sc img, .project2 img {
+  box-shadow: 2px 0px 4px 0px #DCDCDC;
+  width: 100%;
+
+}
+
+#projects img:hover {
+  opacity: .5;
+}
+
+/*projects title*/
+
+.title {
+  margin-top: 20px;
+  font-size: 1.375em;
+  line-height: 23px;
+  color: #000;
+  font-weight: 100;
+  text-align: center;
+}
+
+
+.clearfix {
+  clear: both;
+}
+
+
+
+/* images */
+.sc, .project2 {
+  width: 48%;
+  display: inline-block;
+  float: left;
+  display: block;
+  margin: auto;
+}
+
+.sc img, .project2 img {
+  display: inline;
+
+}
+
+
+
+
+.project2 {
+  float: right;
+}
+
+
+/* Footer */
+
+ footer {
+   margin-bottom: 50px;
+ }
+
+ .fa-2x {
+    font-size: 2.5em;
+}
+
+
+/*media queries*/
+
+
+@media screen and (max-width: 425px) {
+  #container {
+    width: 100%;
+  }
+
+  .slogan {
+    font-size: 1.5rem;
+    line-height: 40px;
+  }
+
+  .herointro {
+    font-size: 3rem;
+    line-height: 50px;
+  }
+
+  .hero {
+    padding: 100px 0 0 0;
+    margin: auto;
+    width: 100%;
+  }
+
+main {
+  width: 100%;
+}
+
+#h {
+  width: 100%;
+}
+
+
+  p, body {
+    font-size: 16px;
+    line-height: 25px;
+  }
+
+
+  .sc, .project2 {
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+    float: left;
+    padding-bottom: 3rem;
+  }
+
+  #projects {
+    padding: 3rem 0;
+}
+}
+
+@media screen and (max-width: 746px) {
+  #container {
+    width: 100%;
+  }
+
+  .slogan {
+    font-size: 1.5rem;
+    line-height: 50px;
+  }
+
+  .herointro {
+    font-size: 2.5rem;
+    line-height: 60px;
+  }
+
+  .hero {
+    padding: 100px 0 0 0;
+    margin: auto;
+    width: 100%;
+    height: 110vh;
+  }
+
+main {
+  width: 100%;
+}
+
+#h {
+  width: 100%;
+}
+
+
+  p, body {
+    font-size: 16px;
+    line-height: 25px;
+  }
+
+
+  .sc, .project2 {
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+    float: left;
+    padding-bottom: 3rem;
+  }
+
+  #projects {
+    padding: 3rem 0;
+}
+}
+
+@media screen and (max-width: 783px) {
+  #projects {
+    width: 100%;
+    display: block;
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+
+
+  .sc, .project2 {
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+    float: left;
+  }
+
+  .hero {
+    padding: 100px 0 0 0;
+    margin: auto;
+    width: 100%;
+  }
+
+  .sc {
+    padding-bottom: 3rem;
+  }
+}
