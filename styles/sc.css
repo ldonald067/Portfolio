@@ -28,7 +28,84 @@ html {
   margin-left: auto;
 }
 
+/* ********** Links Project Section ********** */
+.links-section {
+  border-bottom: 2px solid #2D6E9D;
+  height: auto;
+  margin: 0;
+  padding-bottom: 2rem;
+  width: 100vw;
+  /* z-index: 2; */
+}
 
+
+.links-headline {
+  border-bottom: 2px solid #2D6E9D;
+  color: #2D6E9D;
+  font-size: 2rem;
+  font-weight: 700;
+  margin: 5rem auto 2rem auto;
+  padding: 1rem 3rem 2rem 3rem;
+  text-align: center;
+}
+
+
+
+
+.links-flex-container > li {
+  margin: 0 auto;
+  text-align: center;
+  list-style: none;
+}
+
+.container {
+  justify-content: center;
+  margin: auto;
+  position: relative;
+  text-align: center;
+  width: 100%;
+}
+
+.img-bg-dark-grey {
+  background-color: #444;
+  margin: 0 auto;
+  max-width: 40rem;
+  padding: 0;
+}
+
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  margin: auto;
+  text-align: center;
+  width: 90%;
+}
+
+.link-img {
+  display: flex;
+  margin: 0px auto;
+  /* opacity: 0.5; */
+  transition: .5s ease;
+}
+
+.container:hover .middle {
+  opacity: 1;
+}
+
+.container:hover .link-img {
+  opacity: 0.15;
+}
+
+
+
+.middle-link {
+  opacity: 1;
+}
 
 .row {
   display: -webkit-box;
