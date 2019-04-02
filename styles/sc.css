@@ -38,6 +38,19 @@ html {
   /* z-index: 2; */
 }
 
+a.button-today{
+  display:inline-block;
+  margin:3rem auto;
+  text-align:center;
+  color:#000;
+  border-radius:40px;
+  padding:1rem 2rem;
+  font-size:2rem;
+  background: #2193b0;
+  background: -webkit-linear-gradient(to right, #56ceea, #6dd5ed);
+  background: linear-gradient(to right, #56ceea, #6dd5ed);
+  font-weight:700;
+}
 
 .links-headline {
   border-bottom: 2px solid #2D6E9D;
@@ -101,6 +114,7 @@ html {
   opacity: 0.15;
 }
 
+/*end links section*/
 
 
 .middle-link {
